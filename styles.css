@@ -8,6 +8,42 @@ body {
     display :flex;
     justify-content: space-around;
 }
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.footer {
+    align-self: center;
+}
+.intro {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.animal {
+    display: flex;
+}
+
+.quote {
+    display: flex;
+    align-self: center;
+}
+
+.last {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    flex: auto;
+}
 
 ul{
     list-style-type: none;
