@@ -5,26 +5,34 @@ body {
 }
 .header, .intro {
     background-color: #1F2937;
+    flex-grow: 5;
 }
 .header{
     display :flex;
     justify-content: space-around;
+    align-items: center;
 }
 .content {
     display: flex;
     flex-direction: column;
+    flex-grow: 5;
 }
 .footer {
     align-self: center;
+    background-color: #1F2937;
+    flex-grow: 1;
 }
 .intro {
     display: flex;
+    padding: 20px 500px;
+    justify-content: center;
 }
 
 .info {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-grow: 5;
 }
 
 .animal {
@@ -35,6 +43,7 @@ body {
     display: flex;
     align-self: center;
     background-color: #E5E7EB;
+    flex-grow: 5;
 }
 
 .last {
@@ -44,9 +53,26 @@ body {
     background-color: #3882F6;
 }
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero {
+    flex-grow: 1;
+    height: 200px;
+    width: 200px;
+    flex-wrap: wrap;
+}
+.hero-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 img {
-    width: 100px;
-    flex: auto;
+    width: 200px;
+    height: 200px;
+    flex-grow 1;
 }
 
 ul {
@@ -57,4 +83,10 @@ ul {
 
 button {
     background-color: #3882F6;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900px;
 }
