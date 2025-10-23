@@ -3,7 +3,9 @@ body {
     flex-direction: column;
     font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.header, .intro {
+    background-color: #1F2937;
+}
 .header{
     display :flex;
     justify-content: space-around;
@@ -32,12 +34,14 @@ body {
 .quote {
     display: flex;
     align-self: center;
+    background-color: #E5E7EB;
 }
 
 .last {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #3882F6;
 }
 
 img {
@@ -45,8 +49,12 @@ img {
     flex: auto;
 }
 
-ul{
+ul {
     list-style-type: none;
     display: flex;
     gap: 10px;
+}
+
+button {
+    background-color: #3882F6;
 }
