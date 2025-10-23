@@ -28,6 +28,12 @@ body {
     justify-content: center;
 }
 
+.info h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
+}
+
 .info {
     display: flex;
     flex-direction: column;
@@ -37,6 +43,7 @@ body {
 
 .animal {
     display: flex;
+    justify-content: space-around;
 }
 
 .quote {
@@ -67,6 +74,10 @@ body {
 .hero-link {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.animal img {
+    border: 5px solid #3882F6;
 }
 
 img {
