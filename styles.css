@@ -2,25 +2,23 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 .header, .intro {
     background-color: #1F2937;
-    flex-grow: 5;
 }
 .header{
     display :flex;
     justify-content: space-around;
     align-items: center;
 }
-.content {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 5;
-}
+
 .footer {
-    align-self: center;
     background-color: #1F2937;
-    flex-grow: 1;
+    color: #E5E7EB;
+    flex-basis: auto;
+    text-align: center;
+    min-height: 500px;
 }
 .intro {
     display: flex;
@@ -38,7 +36,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-grow: 5;
+    min-height: 500px;
 }
 
 .animal {
@@ -50,7 +48,10 @@ body {
     display: flex;
     align-self: center;
     background-color: #E5E7EB;
-    flex-grow: 5;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300px;
+    min-height: 500px;
 }
 
 .last {
@@ -58,6 +59,8 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 25px;
 }
 
 .logo {
@@ -69,7 +72,6 @@ body {
     flex-grow: 1;
     height: 200px;
     width: 200px;
-    flex-wrap: wrap;
 }
 .hero-link {
     font-size: 18px;
@@ -94,6 +96,8 @@ ul {
 
 button {
     background-color: #3882F6;
+    border-radius: 5px;
+    color: #E5E7EB;
 }
 
 h1 {
